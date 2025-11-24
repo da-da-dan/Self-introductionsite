@@ -1,0 +1,151 @@
+body {
+    background-color: #FFE4CD;
+}
+p {
+      font-family: "Noto Sans JP", sans-serif;
+}
+img {
+    max-width: 100%;
+}
+/* スマートフォン用 */
+/* TOP */
+.preparing {
+    display: none;
+}
+
+h1 {
+    font-family: "Momo Signature", cursive;
+    background-image: url(/img/HotCoffee\ and\ coffee\ beans.jpg);
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    /* 背景を固定 */
+    background-attachment: fixed;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 100% 0;
+    padding-right: 30px;
+    text-align: right;
+}
+
+/* 自己紹介 */
+.about h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5% 0;
+    text-align: center;
+}
+.itemandanswer {
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 20%;
+    padding-left: 30px;
+}
+.itemandanswer p {
+    padding: 10px 0;
+}
+.item p {
+    font-weight: bold;
+}
+.answer {
+    padding-left: 30px;
+}
+
+/* 趣味1.コーヒーについて */
+.firsthobby h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 50px 0 20px 20px;
+}
+.coffeefirstphoto {
+    /* background-color: #ffffff; */
+    padding-top: 20px;
+    display: flex;
+}
+.coffeefirstphoto p {
+    font-weight: 500;
+    padding: 60px 20px;
+    text-align: center;
+}
+.coffeefirstphoto img {
+    padding: 0 0 20px 20px;
+    width: 50%;
+}
+.coffeesecondphoto {
+    /* background-color: #ffffff; */
+    display: flex;
+}
+.coffeesecondphoto p {
+    line-height: 2;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 60px 30px;
+    text-align: center;
+}
+.coffeesecondphoto img {
+    /* padding-top: 50px; */
+    padding-bottom: 20px;
+    width: 50%;
+}
+
+/* PC専用レイアウトを消去 */
+.pconly-firsthobby {
+    display: none;
+}
+
+/* 趣味2.PCについて */
+.secondhobby h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 100px 0 20px 20px;
+}
+.pcfirstphoto {
+    display: flex;
+}
+.pcfirstphoto p {
+    padding-left: 50px;
+    padding-top: 60px;
+    text-align: center;
+}
+.pcfirstphoto img {
+    padding: 0 0 20px 20px;
+    width: 50%;
+}
+.pcsecondphoto {
+    display: flex;
+}
+.pcsecondphoto p {
+    font-weight: 500;
+    padding: 60px 20px;
+    text-align: center;
+}
+.pcsecondphoto img {
+    padding: 0 20px 20px 20px;
+    width: 50%;
+}
+.status {
+    font-weight: bold;
+}
+
+/* SNSアイコン */
+.socialmediaicon {
+    padding-top: 30px;
+    display: flex;
+}
+.instagram img {
+    margin-left: 300px;
+    width: 10%;
+}
+.x img {
+    margin-left: 70px;
+    padding-top: 5px;
+    width: 20%;
+}
+
+/* 著作権マーク */
+small {
+    padding: 0 40%;
+    text-align: center;
+}
