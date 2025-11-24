@@ -1,0 +1,35 @@
+header {
+    display: none;
+}
+.about {
+    display: none;
+}
+.firsthobby {
+    display: none;
+}
+.secondhobby {
+    display: none;
+}
+.pconly-firsthobby {
+    display: none;
+}
+.pconly-secondhobby {
+    display: none;
+}
+footer {
+    display: none;
+}
+
+.preparing {
+    text-align: center;
+}
+.preparing img {
+    padding: 50px 0 20px 0;
+}
+.preparing h2 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.smartphone {
+    font-weight: bold;
+}
